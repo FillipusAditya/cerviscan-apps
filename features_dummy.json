@@ -1,0 +1,10 @@
+[
+    {
+        "featureName": "Feature 1",
+        "featureValue": 123
+    },
+    {
+        "featureName": "Feature 2",
+        "featureValue": 456
+    }
+]
