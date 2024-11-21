@@ -1,0 +1,52 @@
+[
+    {
+        "patientName": "John Doe",
+        "date": "11/20/2024",
+        "status": "Abnormal"
+    },
+    {
+        "patientName": "Jane Smith",
+        "date": "11/19/2024",
+        "status": "Normal"
+    },
+    {
+        "patientName": "Robert Brown",
+        "date": "11/18/2024",
+        "status": "Abnormal"
+    },
+    {
+        "patientName": "Emily White",
+        "date": "11/17/2024",
+        "status": "Normal"
+    },
+    {
+        "patientName": "Michael Johnson",
+        "date": "11/16/2024",
+        "status": "Abnormal"
+    },
+    {
+        "patientName": "Sarah Williams",
+        "date": "11/15/2024",
+        "status": "Normal"
+    },
+    {
+        "patientName": "Daniel Wilson",
+        "date": "11/14/2024",
+        "status": "Abnormal"
+    },
+    {
+        "patientName": "Laura Taylor",
+        "date": "11/13/2024",
+        "status": "Normal"
+    },
+    {
+        "patientName": "James Anderson",
+        "date": "11/12/2024",
+        "status": "Abnormal"
+    },
+    {
+        "patientName": "Sophia Martinez",
+        "date": "11/11/2024",
+        "status": "Normal"
+    }
+]
