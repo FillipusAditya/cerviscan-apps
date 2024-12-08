@@ -5,13 +5,28 @@ import { ProfileCard } from "../components/profileCard";
 import { ButtonCustom } from "../components/button";
 import { card, colors, fonts } from "../styles/base";
 import { ResultCard } from "../components/resultCard";
+import React, { useEffect } from "react";
 
 export default function GoScanScreen() {
+    const [name, setName] = useState("");
+
+    useEffect(() => {
+        const fetchName = async () => {
+            // Ambil nama user (bisa dari AsyncStorage atau state login)
+            const userName = await AsyncStorage.getItem("userName");
+            setName(userName);
+        };
+        fetchName();
+    }, []);
+
     return (
         <ScrollView
             contentContainerStyle={styles.container}
             keyboardShouldPersistTaps="handled"
         >
+            <View>
+                <Text>Hi, {name} !!</Text>
+            </View>
             <ProfileCard style={{ marginTop: 30 }} />
             <View
                 style={[
